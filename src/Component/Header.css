@@ -1,0 +1,30 @@
+#jumpDown{
+position: relative;
+top: 30vh;
+}
+.containerHeader{
+    background-color: rgb(172, 41, 41);
+
+    }
+    .flexItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+#About{
+    position: relative;
+    top: -30.7vh;
+    left: 41vw;
+}
+#Skills{
+    position: relative;
+    top: -30.7vh;
+    left: 43vw;
+}
+#Magic{
+    position: relative;
+    top: -30.7vh;
+    left: -49vw;
+}

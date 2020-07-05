@@ -1,22 +1,22 @@
 import React ,{Component} from "react";
+import propTypes from "prop-types";
+
 class Fc extends Component {
   render() {
     let name = "rasoul";
     return (
-      <div>
-        {
-          this.props.avg >15 &&
-          <h1>hi dear {name} avg {this.props.avg} is {this.props.lname}</h1>}
-          {
-            this.props.avg<15 &&
-                  <h1> avg less than 15 is {this.props.lname}</h1>
-
-          }
-
-        
-        
-      </div>
+     
+      
     );
   }
 }
+  Fc.propTypes={
+    name:propTypes.string.isRequired,
+    iq:propTypes.number.isRequired
+  }
+  Fc.defaultProps={
+    iq:50,
+    name:'ramin'
+  }
+
 export default Fc;

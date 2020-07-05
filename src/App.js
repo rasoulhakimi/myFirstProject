@@ -1,36 +1,32 @@
 //import React from "react";
 import logo from "./logo.svg";
+import ReactDOM from 'react-dom';
 import "./App.css";
-import React ,{Component} from "react";
-import Fc from "./Component/Fc";
-class App extends Component{
-  constructor(props){
-    super(props);
-  this.state={
-     time:new Date()
-  }}
-  componentDidMount(){
-    setInterval(()=>this.tick(),1000)
-  }
-  tick(){
-    this.setState({
-      time:new Date()
-    })
-  }
-  toggle(){
-    if(this.state.pause){
-      setInterval(()=>this.tick(),1000)
-      this.setState({
-        pause:false
-      })
-    }
-  }
-  render(){
-    return(
-    <div>tim is :{this.state.time.toLocaleTimeString()}
-    <button value='stop' onClick={()=>this.toggle()}></button>
-    </div>
-    )
+import data from "./Component/data.json";
+import React, { Component } from "react";
+
+import { SocialIcons } from "react-social-icons";
+import { render } from "@testing-library/react";
+import bootstrap from "react-bootstrap";
+import bts from "bootstrap/dist/css/bootstrap.min.css";
+
+import Header from "./Component/Header.js";
+import About from "./Component/About.js";
+import Card from "./Component/Card";
+class App extends Component {
+  render() {
+    return (
+      <div>
+      
+        {/* section header */}
+        <Header />
+        {/* section about */}
+        <About />
+        {/* section card */}
+        { <Card/> }
+        
+      </div>
+    );
   }
 }
 

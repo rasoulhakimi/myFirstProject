@@ -1,0 +1,72 @@
+{
+    
+    "mainContent":{
+          "title":"hello i,m rasoul",
+   "subtitile":[" full stack ," , " bloger ,", " engainner electrical "],
+   "link":{
+    
+         "github":"https://github.com/rasoul525",
+         "facebook":"https://facebook.com/",
+         "twitter":"https://twitter.com/jaketrent",
+         "sound":"https://www.spotify.com/"
+   }
+         
+   
+    },
+
+    
+"secondContent":
+        [
+            {
+            "card":
+                     {
+            "cardTitle":"js",
+            "cardImage":"image/js.png",
+            "cardbody":"this is a my first post by  js",
+            "cardFooter":"more...",
+            "cardFooterLink":"https://www.w3schools.com/js/default.asp"
+                }
+            }
+           ,
+            {
+            "card":
+                            { 
+                        "cardTitle":"react",
+                        "cardImage":"../logo192.png",
+                        "cardbody":"this is a my first post by  react",
+                        "cardFooter":"more...",
+                        "cardFooterLink":"https://www.w3schools.com/react/default.asp"
+                            }
+            }
+            ,
+            {
+            "card":
+                    { 
+                            "cardTitle":"css",
+                            "cardImage":"image/css3.png",
+                            "cardbody":"this is a my first post by  css",
+                            "cardFooter":"more...",
+                            "cardFooterLink":"https://www.w3schools.com/html/default.asp"
+                                }
+            
+        },
+        {
+            "card":
+                     { 
+                            "cardTitle":"html",
+                            "cardImage":"image/html5.png",
+                                "cardbody":"this is a my first post by  html",
+                                "cardFooter":"more...",
+                                "cardFooterLink":"https://www.w3schools.com/css/default.asp"
+                            }
+                         
+                        
+        }
+            
+        ],
+        
+            "about":"about",
+            "aboutTitle":"React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes."
+          
+    
+}

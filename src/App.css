@@ -36,10 +36,26 @@
     transform: rotate(360deg);
   }
 }
-.red{
-  width: 50%;
-  height: 300px;
-  color:red;
-  border: 1px solid black;
-  border-radius: 5px solid red;
+
+
+
+.section{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+}
+#jump{
+  position: relative;
+  top: 30vh;
+  }
+
+
+a{
+  text-decoration: none !important;
+}
+.containerAbout{
+background-color: rgb(127, 218, 157);
 }
