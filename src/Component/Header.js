@@ -12,7 +12,7 @@ class Header extends Component{
   }
   Magic(){
     this.setState({
-      color:this.state.color==="red"?"yellow":"red"
+      color:this.state.color==="pink"?"yellow":"pink"
     })
   }
     render(){
